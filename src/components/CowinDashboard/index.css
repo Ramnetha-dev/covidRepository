@@ -1,0 +1,67 @@
+/* Write your CSS here */
+
+.website-container {
+  background-color: #161625;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+
+.app-logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.app-logo {
+  height: 45px;
+}
+
+.text {
+  font-family: Roboto;
+  font-size: 23px;
+  color: #2cc6c6;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.heading {
+  font-family: Roboto;
+  font-size: 40px;
+  color: #cbd5e1;
+  font-weight: 500;
+}
+
+.failure-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.failure-image {
+  height: 300px;
+}
+
+.error {
+  font-family: Sans serif;
+  font-size: 20px;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

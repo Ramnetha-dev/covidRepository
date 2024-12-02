@@ -1,0 +1,22 @@
+/* Write your CSS here */
+
+.piechart-container {
+  background-color: #1c1c2b;
+  margin-top: 12px;
+  padding: 15px;
+}
+.head {
+  color: #cbd5e1;
+  font-family: Roboto;
+  font-size: 20px;
+  margin-top: 10px;
+  align-self: flex-start;
+}
+
+.piechart {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
